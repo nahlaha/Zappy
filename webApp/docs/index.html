@@ -1,0 +1,53 @@
+Html Webpack Plugin:
+<pre>
+  Error: Parse Error: <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css" , "styles.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="styles.6ae40229608f456f0049.bundle.css" rel="stylesheet"/></head>
+  <body>
+      <div class="container">
+          <app-root></app-root>
+      </div>
+      <script src="../node_modules/jquery/jquery.min.js"></script>
+      <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="inline.318b50c57b4eba3d437b.bundle.js"></script><script type="text/javascript" src="polyfills.95f523ba519a  c2af484d.bundle.js"></script><script type="text/javascript" src="scripts.27b12a036ea66a87016a.bundle.js"></script><script type="text/javascrip  t" src="main.d371f57f39f895c1496d.bundle.js"></script></body>
+  </html>
+  
+  - htmlparser.js:240 new HTMLParser
+    [webApp]/[html-minifier]/src/htmlparser.js:240:13
+  
+  - htmlminifier.js:944 minify
+    [webApp]/[html-minifier]/src/htmlminifier.js:944:3
+  
+  - htmlminifier.js:1304 exports.minify
+    [webApp]/[html-minifier]/src/htmlminifier.js:1304:10
+  
+  - index.js:296 
+    [webApp]/[html-webpack-plugin]/index.js:296:16
+  
+  - util.js:16 tryCatcher
+    [webApp]/[bluebird]/js/release/util.js:16:23
+  
+  - promise.js:512 Promise._settlePromiseFromHandler
+    [webApp]/[bluebird]/js/release/promise.js:512:31
+  
+  - promise.js:569 Promise._settlePromise
+    [webApp]/[bluebird]/js/release/promise.js:569:18
+  
+  - promise.js:614 Promise._settlePromise0
+    [webApp]/[bluebird]/js/release/promise.js:614:10
+  
+  - promise.js:693 Promise._settlePromises
+    [webApp]/[bluebird]/js/release/promise.js:693:18
+  
+  - async.js:133 Async._drainQueue
+    [webApp]/[bluebird]/js/release/async.js:133:16
+  
+  - async.js:143 Async._drainQueues
+    [webApp]/[bluebird]/js/release/async.js:143:10
+  
+  - async.js:17 Immediate.Async.drainQueues
+    [webApp]/[bluebird]/js/release/async.js:17:14
+  
+</pre>
